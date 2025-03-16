@@ -3,6 +3,7 @@ langchain
 flask
 flask-cors
 pypdf
+openai
 python-dotenv
 pinecone[grpc]
 langchain-pinecone
