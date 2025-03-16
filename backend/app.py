@@ -52,6 +52,6 @@ def chat():
         print("Error handling /get request:", e)  # Debugging
         return jsonify({"error": "Internal Server Error"}), 500
 
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug=True)
+# for local development
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0", port=8080, debug=True)
