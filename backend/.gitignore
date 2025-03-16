@@ -1,4 +1,4 @@
 .env
 *.egg-info
 research
-src\__pycache__
+src/__pycache__/
