@@ -5,8 +5,8 @@ flask-cors
 pypdf
 openai
 python-dotenv
-pinecone[grpc]
+pinecone-client
 langchain-pinecone
-langchain_community
-langchain_experimental
+langchain-community
+langchain-experimental
 -e .
