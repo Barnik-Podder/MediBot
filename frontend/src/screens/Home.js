@@ -19,7 +19,7 @@ const Home = () => {
     setLoading(true); // Show loading animation
   
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_URL}}/get`, { msg: input });
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/get`, { msg: input });
       const botMessage = { text: response.data.response, sender: "bot" };
       setMessages((prev) => [...prev, botMessage]);
     } catch (error) {
